@@ -23,9 +23,9 @@ public class fnoverload
 		int x=s.nextInt();
 		ob.area(x);
 		System.out.println("-----RECTANGLE-----");
-		System.out.println("Enter length of the square :");
+		System.out.println("Enter length of the rectangle :");
 		int y=s.nextInt();
-		System.out.println("Enter breadth of the square :");
+		System.out.println("Enter breadth of the rectangle :");
 		int z=s.nextInt();
 		ob.area(y,z);
 		System.out.println("-----CIRCLE-----");
