@@ -44,12 +44,12 @@ public class bill implements design
 		bill newbill[]=new bill[n];
 		while(ch==1&&i<n)
 		{
-			System.out.println("Item "+(i+1));
 			newbill[i]=new bill();
 			if(i==0)
 			{
 				newbill[i].getHeader();
 			}
+			System.out.println("Item "+(i+1));
 			newbill[i].additem();
 			i++;
 			System.out.println("Press 1 to add more items");
